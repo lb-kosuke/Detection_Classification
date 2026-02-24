@@ -3,11 +3,6 @@
 This repository will be the sample code for the title paper.
 
 
----
-
-## Overview
-Unlike standard classification models that require pre-cropped images, this pipeline utilizes **Object Detection** (e.g., YOLOv8, Faster R-CNN) to automatically locate individual chromosomes within a full **metaphase spread** and classify them into three categories based on their cohesion status.
-
 ## Repository Structure
 
 ### 1. Data: Metaphase Images
@@ -30,7 +25,6 @@ This folder contains trained weights optimized for the morphological features of
 ### 4. Code: DDX11_Detection_Demo.ipynb
 A Google Colaboratory notebook designed for automated detection and quantitative analysis.
 
----
 
 ## Usage
 
@@ -43,11 +37,9 @@ A Google Colaboratory notebook designed for automated detection and quantitative
 5.  **Adjust Parameters**: 
     * Lines starting with `###` allow you to modify the `confidence_threshold` or `input_path` for your own datasets.
 
----
 
 ## Key Features of this Pipeline
 * **No Manual Cropping**: Directly processes raw metaphase spread images.
 * **High Efficiency**: Automatically counts the frequency of each SCC defect type (typeA/B/C) per cell.
 * **Overlapping Handling**: Uses **Non-Maximum Suppression (NMS)** to accurately detect chromosomes in crowded metaphase spreads.
 
----
