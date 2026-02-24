@@ -1,7 +1,7 @@
-path:  ./data
-train: train
-val: val
-test:  images
+path:  .
+train: data
+val: data
+test:  data/images
 
 nc: 3 
 names: ['a', 'b', 'c'] 
