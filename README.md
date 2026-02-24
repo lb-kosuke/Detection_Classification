@@ -6,9 +6,8 @@ This repository will be the sample code for the title paper.
 ## Repository Structure
 
 ### 1. Data: Metaphase Images
-* **Description**: Microscopic images of metaphase spreads from **DDX11 -/-** cells.
-* **Format**: Full-frame images.
-* **Annotations**: Bounding box coordinates and class labels (typeA, typeB, typeC) provided in YOLO/COCO format.
+* **images**: Microscopic images of metaphase spreads from **DDX11 -/-** cells.
+* **labels**: Bounding box coordinates and class labels (typeA, typeB, typeC) provided in YOLO/COCO format.
 
 ### 2. Models: Trained Object Detection Models
 This folder contains trained weights optimized for the morphological features of DDX11-deficient chromosomes.
