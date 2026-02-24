@@ -28,10 +28,6 @@ A Google Colaboratory notebook designed for automated detection and classificati
 
 1.  **Open the Notebook**: Locate `Detection_Classification.ipynb` in the `Code` folder.
 2.  **Launch in Colab**: Click the **"Open in Colab"** badge.
-3.  **Hardware Acceleration**: 
-    * Go to `Runtime` → `Change runtime type`.
-    * Select **GPU** as the Hardware accelerator.
-4.  **Run Pipeline**: Execute the cells in order from top to bottom.
-5.  **Adjust Parameters**: 
-    * Lines starting with `###` allow you to modify the `confidence_threshold` or `input_path` for your own datasets.
+3.  **Run Pipeline**: Execute the cells in order from top to bottom.
+
 
