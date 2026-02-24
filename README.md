@@ -7,7 +7,7 @@ This repository will be the sample code for the title paper.
 
 ### 1. Data: Metaphase Images
 * **images**: Microscopic images of metaphase spreads from **DDX11 -/-** cells.
-* **labels**: Bounding box coordinates and class labels (typeA:0, typeB:1, typeC:2) provided in YOLO format.
+* **labels**: Bounding box coordinates and class labels (typeA : 0, typeB : 1, typeC : 2) provided in YOLO format.
 
 ### 2. Models: Trained Object Detection Models
 
@@ -19,11 +19,8 @@ This folder contains trained weight files (`.pt`) for **YOLOv8n**, used to detec
     - **typeB**: Partial cohesion defect (arm dissociation)
     - **typeC**: Complete cohesion defect (total separation)
 
-### 3. Results
-* **DDX11_Detection_Results.csv**: Output files containing `image_id`, `box_coordinates`, `class_prediction`, and `confidence_score`.
-* **Visualizations**: Metaphase images with detected chromosomes highlighted by bounding boxes and labels.
 
-### 4. Code: DDX11_Detection_Demo.ipynb
+### 3. Code: DDX11_Detection_Demo.ipynb
 A Google Colaboratory notebook designed for automated detection and quantitative analysis.
 
 
