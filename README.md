@@ -27,7 +27,7 @@ A Google Colaboratory notebook designed for automated detection and classificati
 ## Usage
 
 1.  **Open the Notebook**: Locate `Detection_Classification.ipynb` in the `Code` folder.
-2.  **Launch in Colab**: Click the **"Open in Colab"** badge.
+2.  **Launch in Colab**: open in colab
 3.  **Run Pipeline**: Execute the cells in order from top to bottom.
 
 
