@@ -10,12 +10,14 @@ This repository will be the sample code for the title paper.
 * **labels**: Bounding box coordinates and class labels (typeA:0, typeB:1, typeC:2) provided in YOLO format.
 
 ### 2. Models: Trained Object Detection Models
-This folder contains trained weights (`.pt` files) for **YOLOv8n**, trained to detect and classify the morphological features chromosomes into three categories:
-* **Architecture**: **YOLOv8n** (Nano) — A lightweight, high-speed model suitable for rapid analysis.
-* **Classes**:
-    * **typeA**: Normal cohesion.
-    * **typeB**: Partial cohesion defect (arm dissociation).
-    * **typeC**: Complete cohesion defect (total separation).
+
+This folder contains trained weight files (`.pt`) for **YOLOv8n**, used to detect and classify chromosomes based on their morphological cohesion patterns.
+
+- **Architecture**: YOLOv8n (Nano) — a lightweight, high-speed object detection model suitable for rapid analysis.
+- **Classes**:
+    - **typeA**: Normal cohesion
+    - **typeB**: Partial cohesion defect (arm dissociation)
+    - **typeC**: Complete cohesion defect (total separation)
 
 ### 3. Results
 * **DDX11_Detection_Results.csv**: Output files containing `image_id`, `box_coordinates`, `class_prediction`, and `confidence_score`.
