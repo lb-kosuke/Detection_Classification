@@ -1,7 +1,6 @@
-# Detection and Classification of Chromosomes with Sister Chromatid Cohesion Defects in DDX11-Deficient Cells
+# Detection and Classification of Chromosomes with Sister Chromatid Cohesion Defects Using Object Detection Models
 
-This repository provides the sample code and data for the detection and classification of Sister Chromatid Cohesion (SCC) defects in **DDX11-deficient (DDX11 -/-)** cells using Object Detection models.
-
+This repository will be the sample code for the title paper.
 
 
 ---
