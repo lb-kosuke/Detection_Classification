@@ -20,13 +20,13 @@ This folder contains trained weight files (`.pt`) for **YOLOv8n**, used to detec
     - **typeC**: Complete cohesion defect (total separation)
 
 
-### 3. Code: DDX11_Detection_Demo.ipynb
-A Google Colaboratory notebook designed for automated detection and quantitative analysis.
+### 3. Code: Detection_Classification.ipynb
+A Google Colaboratory notebook designed for automated detection and classification.
 
 
 ## Usage
 
-1.  **Open the Notebook**: Locate `DDX11_Detection_Demo.ipynb` in the `Code` folder.
+1.  **Open the Notebook**: Locate `Detection_Classification.ipynb` in the `Code` folder.
 2.  **Launch in Colab**: Click the **"Open in Colab"** badge.
 3.  **Hardware Acceleration**: 
     * Go to `Runtime` → `Change runtime type`.
@@ -34,10 +34,4 @@ A Google Colaboratory notebook designed for automated detection and quantitative
 4.  **Run Pipeline**: Execute the cells in order from top to bottom.
 5.  **Adjust Parameters**: 
     * Lines starting with `###` allow you to modify the `confidence_threshold` or `input_path` for your own datasets.
-
-
-## Key Features of this Pipeline
-* **No Manual Cropping**: Directly processes raw metaphase spread images.
-* **High Efficiency**: Automatically counts the frequency of each SCC defect type (typeA/B/C) per cell.
-* **Overlapping Handling**: Uses **Non-Maximum Suppression (NMS)** to accurately detect chromosomes in crowded metaphase spreads.
 
