@@ -13,7 +13,7 @@ This repository will be the sample code for the title paper.
 
 This folder contains trained weight files (`.pt`) for **YOLOv8n**, used to detect and classify chromosomes based on their morphological cohesion patterns.
 
-- **Architecture**: YOLOv8n (Nano) — a lightweight, high-speed object detection model suitable for rapid analysis.
+- **Architecture**: YOLOv8n
 - **Classes**:
     - **typeA**: Normal cohesion
     - **typeB**: Partial cohesion defect (arm dissociation)
