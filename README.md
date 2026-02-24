@@ -7,15 +7,15 @@ This repository will be the sample code for the title paper.
 
 ### 1. Data: Metaphase Images
 * **images**: Microscopic images of metaphase spreads from **DDX11 -/-** cells.
-* **labels**: Bounding box coordinates and class labels (typeA, typeB, typeC) provided in YOLO/COCO format.
+* **labels**: Bounding box coordinates and class labels (typeA:0, typeB:1, typeC:2) provided in YOLO format.
 
 ### 2. Models: Trained Object Detection Models
-This folder contains trained weights optimized for the morphological features of DDX11-deficient chromosomes.
-* **Architectures**: Includes checkpoints for **YOLOv8/v10** and **Faster R-CNN** (ResNet50-FPN).
+This folder contains trained weights (`.pt` files) for **YOLOv8n**, trained to detect and classify the morphological features chromosomes into three categories:
+* **Architecture**: **YOLOv8n** (Nano) — A lightweight, high-speed model suitable for rapid analysis.
 * **Classes**:
-    * **typeA**: Normal cohesion (sister chromatids tightly aligned).
-    * **typeB**: Partial cohesion defect (dissociation of chromosome arms).
-    * **typeC**: Complete cohesion defect (total separation of sister chromatids).
+    * **typeA**: Normal cohesion.
+    * **typeB**: Partial cohesion defect (arm dissociation).
+    * **typeC**: Complete cohesion defect (total separation).
 
 ### 3. Results
 * **DDX11_Detection_Results.csv**: Output files containing `image_id`, `box_coordinates`, `class_prediction`, and `confidence_score`.
