@@ -1,11 +1,14 @@
 ## Detection and Classification of Chromosomes with Sister Chromatid Cohesion Defects Using Object Detection Models
 
-This repository will be the sample code for the title paper.
+This repository provides the sample code and data for the paper titled above. Unlike standard classification, this approach utilizes Object Detection models to automatically locate individual chromosomes within a metaphase spread and classify their Sister Chromatid Cohesion (SCC) status.
 
 
-It includes the following
+## Repository Contents
 
-1. Data : Chromosome images of WT cells and CTf18 -/- cells for classification
+1. Data: Metaphase Spread Images
+・Source: Microscopic images of metaphase spreads from Wild Type (WT) and Ctf18 -/- cells.
+・Format: Full-frame images (metaphase spreads) rather than pre-cropped single chromosomes.
+・Annotations: Includes bounding box coordinates and class labels in YOLO or COCO format.
 2. Models : Trained models to classify three classes typeA, typeB, and typeC.
 Includes 30 each of ResNet18-based and SqueezeNet-based models
 3. Results : This folder contains csv files outputting the classification prediction results for each models.
